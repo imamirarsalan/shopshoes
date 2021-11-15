@@ -1,0 +1,38 @@
+.banner img {
+    width: 100%;
+    /* margin-top: 10; */
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.container button {
+    position: absolute;
+    bottom: 40px;
+    border: none;
+    width: 170px;
+    height: 35px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #232323;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    
+}
+.container button:hover {
+    background-color: #efefef;
+    color: #121212;
+}
+
+@media (max-width: 700px) {
+    .container button {
+        display: none;
+    }
+}

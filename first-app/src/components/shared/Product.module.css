@@ -1,0 +1,68 @@
+body {
+    background-color: #343333;
+}
+
+.container {
+    margin: 10px 30px;
+    background-color: #1b1c1f;
+    border-radius: 5px;
+    overflow: hidden;
+    
+    
+}
+
+.container img {
+    width: 100%;
+    height: 250px;
+    filter: grayscale(90%);
+    /* padding-top: 10px; */
+    border-bottom: 2px solid #fff;
+
+
+   
+}
+.container p {
+    color: #fff;
+}
+.buttonProduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+.buttonProduct button {
+    width: 120px;
+    height: 30px;
+    border: none;
+    font-size: 0.9rem;
+    /* font-weight: bold; */
+    border-radius: 2px;
+    background-color: #343333;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+.buttonProduct button:hover {
+    background-color: #f2f4f4;
+    color: #0f1212;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .container img {
+        width: 100%;
+    }
+    .container {
+        margin-bottom: 20px;
+    }
+}
+

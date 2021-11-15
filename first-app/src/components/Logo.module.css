@@ -1,0 +1,47 @@
+.container {
+    margin-top: 30px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+.container p {
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-family: 'Caveat', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+.container span {
+    /* background-color: #fff; */
+    color: #121413;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+.logo img {
+    width: 150px;
+    filter: grayscale(90%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.logo img:hover {
+    transform: skew(20deg, 5deg); 
+}
+
+@media (max-width: 600px) {
+    .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo img {
+        margin-bottom: 20px;
+    }
+}

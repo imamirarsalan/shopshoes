@@ -1,0 +1,111 @@
+.container {
+    border-right: 2px solid #050708;
+    border-top: 2px solid #050708;
+    border-left: 2px solid #fafbfa;
+    border-bottom: 2px solid #fafbfa;
+    margin: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+}
+.infoProduct {
+    padding-right: 150px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300&display=swap');
+.infoProduct p {
+    padding-top: 8px;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.3rem;
+    background-color: #050708;
+    width: fit-content;
+    padding: 0px 10px;
+    margin: 4px 0;
+}
+.container img {
+    width: 350px;
+    height: 300px;
+}
+
+.buttonContainer button {
+    width: 150px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    background-color: #0f1112;
+    color: #fff;
+    transition: all 0.3s ease-in;
+    
+}
+.smallButton img {
+    width: 20px;
+    height: 15px;
+    
+}
+.smallButton {
+    width: 30px !important;
+}
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+}
+.buttonContainer button:hover {
+    background-color: #fafbfa;
+    color: #050708;
+    font-weight: bold;
+}
+.counter {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fafbfa;
+    padding: 0 5px;
+    display: inline-block;
+    text-align: left;
+}
+.link a {
+    text-decoration: none;
+    color: #d0d1cb;
+    font-size: 1.8rem;
+}
+
+@media (max-width: 955px) {
+    .container {
+        margin: 30px;
+    }
+    .infoProduct {
+        padding-right: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .infoProduct {
+        margin-top: 10px;
+        text-align: center;
+        
+    }
+    .link {
+        text-align: left;
+    }
+}
+@media (max-width: 450px) {
+    .container img {
+        width: 300px;
+        height: 250px;
+    }
+   
+}

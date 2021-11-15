@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 130px 30px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.payments span {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    font-family: 'Courgette', cursive;
+}
+.buttonContainer button {
+    margin-right: 10px;
+    border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    background-color: #1b1a18;
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+.buttonContainer button:hover {
+    background-color: #cdcac4;
+    color: #1b1a18;
+}
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+.complete p {
+    color: #f2f2f1;
+    font-size: 1.3rem;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+.complete a {
+    text-decoration: none;
+    font-family: 'Courgette', cursive;
+    font-size: 1.1rem;
+    color: #fff;
+    line-height: 30px;
+    
+
+}
+@media (max-width: 550px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

@@ -1,0 +1,36 @@
+.container {
+    margin-top: 10px;
+    background-color: #121212;
+}
+.textContainer{
+    padding-top: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.textContainer p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    font-family: 'Dancing Script', cursive;
+
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+.buttonContainer button {
+    width: 140px;
+    height: 28px;
+    border-color: #fff;
+    background-color: #121212;
+    color: #fff;
+    cursor: pointer;
+}
+.buttonContainer button:hover {
+    background-color: #fff;
+    color: #121212;
+    border-color: #121212;
+}
+
